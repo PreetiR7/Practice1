@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="96572" started-at="2020-12-19T19:45:19 IST" finished-at="2020-12-19T19:46:56 IST">
+    <groups>
+      <group name="sanity">
+        <method signature="FunctionalCases.search()[pri:0, instance:com.pre.scripts.FunctionalCases@1846619]" name="search" class="com.pre.scripts.FunctionalCases"/>
+        <method signature="FunctionalCases.search()[pri:0, instance:com.pre.scripts.FunctionalCases@183967b]" name="search" class="com.pre.scripts.FunctionalCases"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test1" duration-ms="96572" started-at="2020-12-19T19:45:19 IST" finished-at="2020-12-19T19:46:56 IST">
+      <class name="com.pre.scripts.FunctionalCases">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.pre.scripts.FunctionalCases@1846619]" name="Setup" is-config="true" duration-ms="65868" started-at="2020-12-19T19:45:19 IST" finished-at="2020-12-19T19:46:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="search()[pri:0, instance:com.pre.scripts.FunctionalCases@1846619]" name="search" duration-ms="30693" started-at="2020-12-19T19:46:25 IST" finished-at="2020-12-19T19:46:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- com.pre.scripts.FunctionalCases -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
